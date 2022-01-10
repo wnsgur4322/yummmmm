@@ -1,0 +1,227 @@
+/*
+Orders.css
+Author: Derek Jeong
+Description: Orders.css is a css styling file for implementing styles, fonts, and design.
+*/
+
+@media screen and (min-width: 100px) {
+
+        .Orders {
+                padding: 0 0;
+                padding-top: 30%;
+                padding-bottom: 14%;
+                margin: 0 auto;
+        }
+
+        .LoginForm {
+                width: 80%;
+                margin: 0 auto;
+                background-color: white;
+                border-radius: 10px;
+        }
+
+        .login-btn {
+                width: 40%;
+                margin: 0 auto;
+                background-color: #f2ca64;
+                border-color: none;
+        }
+
+        .form-contents {
+                width: 80%;
+                margin: 0 auto;
+                margin-top: 10px;
+        }
+
+        .ListMenu:hover {
+                background-color: #f2ca64;
+                box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+        }
+
+        .card-media {
+                max-width: 30%;
+                max-height: 30%;
+        }
+
+        .card-title {
+                font-size: 10px;
+                margin: 0 auto;
+                text-align: center;
+                color: black;
+                margin-bottom: 8px;
+        }
+
+        .menu-title {
+                font-size: 15px;
+                margin: 0 auto;
+                text-align: center;
+                color: white;
+        }
+
+        .offline-title {
+                font-size: 15px;
+                margin: 0 auto;
+                margin-left: 0;
+                color: white;
+        }
+
+        .orderBox {
+                
+        }
+
+        .MuiCardContent-root {
+                width: 45%;
+        }
+
+        .Completed {
+                font-size: 15px;
+                color: greenyellow;
+                font-weight: bold;
+        }
+}
+
+@media screen and (min-width: 760px) {
+
+        .Orders {
+                padding: 0 0;
+                padding-top: 12%;
+                padding-bottom: 14%;
+                margin: 0 auto;
+        }
+
+        .LoginForm {
+                width: 60%;
+                margin: 0 auto;
+        }
+
+        .login-btn {
+                width: 30%;
+                margin: 0 auto;
+                margin-top: 10px;
+                background-color: #f2ca64;
+                border-color: none;
+        }
+
+        .form-contents {
+                width: 80%;
+                margin: 0 auto;
+        }
+
+        .ListMenu:hover {
+                background-color: #f2ca64;
+                box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+        }
+
+        .card-title {
+                font-size: 25px;
+                margin: 0 auto;
+                text-align: center;
+                color: black;
+                margin-bottom: 8px;
+        }
+
+        .card-para {
+                font-size: 15px;
+                margin: 0 auto;
+                text-align: center;
+                color: black;
+        }
+
+        .menu-title {
+                font-size: 20px;
+                margin: 0 auto;
+                text-align: center;
+                color: white;
+        }
+
+        .offline-title {
+                font-size: 20px;
+                margin: 0 auto;
+                margin-left: 0;
+                color: white;
+        }
+
+        .MuiCardContent-root {
+                width: 50%;
+        }
+
+        .Completed {
+                font-size: 25px;
+                color: greenyellow;
+                font-weight: bold;
+        }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+        .Orders {
+                padding: 0 0;
+                padding-top: 5%;
+                padding-bottom: 10%;
+                margin: 0 auto;
+        }
+
+        .LoginForm {
+                width: 40%;
+                margin: 0 auto;
+        }
+
+        .login-btn {
+                width: 30%;
+                margin: 0 auto;
+                margin-top: 10px;
+                background-color: #f2ca64;
+                text-align: center;
+        }
+
+        .form-contents {
+                width: 80%;
+                margin: 0 auto;
+        }
+
+        .ListMenu:hover {
+                padding: 0;
+                margin-bottom: 10px;
+                background-color: #f2ca64;
+                box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+        }
+
+        .card-title {
+                font-size: 20px;
+                margin: 0 auto;
+                text-align: left;
+                color: black;
+                margin-bottom: 8px;
+        }
+
+        .card-para {
+                font-size: 15px;
+                margin: 0 auto;
+                text-align: left;
+                color: black;
+        }
+
+        .menu-title {
+                font-size: 20px;
+                margin: 0 auto;
+                text-align: center;
+                color: white;
+        }
+        .offline-title {
+                font-size: 20px;
+                margin: 0 auto;
+                margin-left: 0;
+                color: white;
+        }
+
+        .MuiCardContent-root {
+                width: 50%;
+        }
+
+        .Completed {
+                font-size: 30px;
+                color: greenyellow;
+                font-weight: bold;
+        }
+}

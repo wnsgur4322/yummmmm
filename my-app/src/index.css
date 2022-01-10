@@ -1,0 +1,39 @@
+html {
+	scroll-behavior: smooth;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	scroll-padding-top: 80px;
+}
+
+ul {
+  margin-top: 0;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  margin-top: 0px;
+  color: #333;
+  font-size: 16px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Open Sans", sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "PT Serif", serif;
+}
+.text-center {
+text-align: center;
+margin: 0 auto;
+}
+
+select.form-control,
+textarea.form-control,
+input.form-control {
+font-size: 1rem;
+}
+input[type=file] {
+width: 100%;
+}

@@ -1,0 +1,60 @@
+{
+    "businessName": "name of business",
+    "allMenuItems": {
+        "Item Name 1": {
+            "inStock": true,
+            "visibleOnMenu": true,
+            "description": "some description of the menu item",
+            "itemImageAssetName": "unique identifier to locate side image asset",
+            "visibilityDateRange": {
+                "startDate": {
+                    "month": "dec",
+                    "day": 1,
+                    "hour": 0
+                },
+                "endDate": {
+                    "month": "jan",
+                    "day": 1,
+                    "hour": 0
+                }
+            },
+            "priceInCents": 1999,
+            "itemSides": {
+                "Side Type Name 1" : {
+                    "selectedOptionName": "name of selected side",
+                    "isRequiredForItem": true,
+                    "sideOptions": {
+                        "Side Item Name 1": {
+                            "shouldInclude": true
+                        }
+                    }
+                }
+            },
+            "itemToppings": {
+                "Topping Name 1": {
+                    "shouldInclude": true,
+                    "isRequiredForItem": false
+                }
+            }
+        },
+        "Side Item Name 1": {
+            
+        }
+    },
+    "allToppings": {
+        "Topping Name 1": {
+            "inStock": true,
+            "description": "some description of the item topping",
+            "additionalCostInCents": 0,
+            "toppingImageAssetName": "unique identifier to locate topping image asset"
+        }
+    },
+    "menuSections": {
+        "Section Name 1" : {
+            "Item Name 1": true
+        },
+        "Section Name 2": {
+            "Item Name 1": true
+        }
+    }
+}

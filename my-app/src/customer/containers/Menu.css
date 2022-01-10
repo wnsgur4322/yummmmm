@@ -1,0 +1,267 @@
+/*
+Menu.css
+Author: Derek Jeong
+Description: Menu.css is a css styling file for implementing styles, fonts, and design.
+*/
+
+@media screen and (min-width: 100px) {
+
+        .menu {
+                padding: 0 0;
+                padding-top: 5%;
+                padding-bottom: 20px;
+                margin: 0 auto;
+        }
+
+        .menu-titles {
+                font-size: 15px;
+                margin: 0 auto;
+                color: #F2BD2B;
+                font-family: mr-eaves-xl-modern, sans-serif;
+        }
+        .cart-titles {
+                font-size: 20px;
+                margin: 0 auto;
+                color: black;
+        }
+
+        .cart-para {
+                font-size: 15px;
+                margin: 0 auto;
+                color: gray;
+        }
+        
+        .card {
+                width: 100%;
+        }
+
+        .card-media {
+                max-width: 30%;
+                max-height: 30%;
+        }
+
+        .card-titles {
+                font-size: 15px;
+                margin: 0 auto;
+                text-align: center;
+                color: black;
+                margin-bottom: 8px;
+        }
+
+        .card-para {
+                font-size: 10px;
+                margin: 0 auto;
+                text-align: center;
+                color: black;
+        }
+
+        .edit-titles {
+                font-size: 15px;
+                color: black;
+                text-align: left;
+        }
+
+        .MuiCardContent-root {
+                margin: 0 auto;
+                width: 100%;
+        }
+        .react-multi-carousel-list {
+                margin: 0 auto;
+                width: 100%;
+                position: unset;     
+        }
+        .item-desc {
+                min-height: 70px;
+        }
+
+        .selectedItem-titles {
+                font-size: 15px;
+                color: black;
+                font-family: sans-serif;
+        }
+
+        .itemPaper {
+                width: 90%;
+        }
+        .Itembutton {
+                box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+                background-color: #f7f7f7;
+                padding: 0;
+                text-transform: none;
+                margin: 0 auto;
+                margin-bottom: 0px;
+                height: 100%;
+                border: none;
+                display: block;
+                overflow: hidden;
+        }
+        .Itembutton:hover {
+                background: linear-gradient(to top, #f8eecb, #F2BD2B), no-repeat top center;
+                opacity: 0.7;
+                z-index: 2;
+        }
+        .Itembutton:focus {
+                background: linear-gradient(to top, #f8eecb, #F2BD2B), no-repeat top center;
+                opacity: 0.9;
+                z-index: 2;
+        }
+        .Itembutton:active {
+                background: linear-gradient(to top, #f8eecb, #F2BD2B), no-repeat top center;
+                opacity: 0.9;
+                z-index: 2;
+        }
+}
+
+@media screen and (min-width: 760px) {
+
+        .menu {
+                padding: 0 0;
+                padding-top: 5%;
+                padding-bottom: 20px;
+                margin: 0 auto;
+        }
+
+        .menu-titles {
+                font-size: 25px;
+                margin: 0 auto;
+                color: #F2BD2B;
+                font-family: mr-eaves-xl-modern, sans-serif;
+        }
+        .cart-titles {
+                font-size: 25px;
+                margin: 0 auto;
+                color: black;
+        }
+
+        .card-titles {
+                font-size: 25px;
+                margin: 0 auto;
+                text-align: center;
+                color: black;
+                margin-bottom: 8px;
+        }
+
+        .card-para {
+                font-size: 15px;
+                margin: 0 auto;
+                text-align: center;
+                color: black;
+        }
+
+        .cart-para {
+                font-size: 15px;
+                margin: 0 auto;
+                color: gray;
+        }
+
+        .edit-titles {
+                font-size: 15px;
+                color: black;
+                text-align: left;
+        }
+
+        .MuiCardContent-root {
+                width: 100%;
+        }
+        .react-multi-carousel-list {
+                margin: 0 auto;
+                width: 90%;
+                position: unset;     
+        }
+        .react-multiple-carousel__arrow--left {
+                left: 1% !important;
+        }
+        .react-multiple-carousel__arrow--right {
+                right: 0% !important;
+        }
+        .item-desc {
+                min-height: 90px;
+        }
+
+        .selectedItem-titles {
+                font-size: 20px;
+                color: black;
+                font-family: sans-serif;
+        }
+
+        .itemPaper {
+                width: 30%;
+        }
+}
+
+@media screen and (min-width: 1440px) {
+
+        .menu {
+                padding: 0 0;
+                padding-top: 5%;
+                padding-bottom: 20px;
+                margin: 0 auto;
+        }
+
+        .menu-titles {
+                font-size: 23px;
+                margin: 0 auto;
+                color: #F2BD2B;
+                font-family: mr-eaves-xl-modern, sans-serif;
+        }
+        .cart-titles {
+                font-size: 25px;
+                margin: 0 auto;
+                color: black;
+        }
+
+        .card-titles {
+                font-size: 25px;
+                margin: 0 auto;
+                text-align: center;
+                color: black;
+                margin-bottom: 8px;
+        }
+
+        .card-para {
+                font-size: 15px;
+                margin: 0 auto;
+                text-align: center;
+                color: black;
+        }
+
+        .cart-para {
+                font-size: 15px;
+                margin: 0 auto;
+                color: gray;
+        }
+
+        .edit-titles {
+                font-size: 17px;
+                color: black;
+                text-align: left;
+        }
+        .MuiCardContent-root {
+                width: 100%;
+        }
+        .react-multiple-carousel__arrow--left {
+                left: 1% !important;
+        }
+        .react-multiple-carousel__arrow--right {
+                right: 0% !important;
+        }
+        .item-desc {
+                min-height: 100px;
+        }
+        .react-multi-carousel-list {
+                margin: 0 auto;
+                width: 80%;
+                position: unset;    
+        }
+
+        .selectedItem-titles {
+                font-size: 20px;
+                color: black;
+                font-family: sans-serif;
+        }
+
+        .itemPaper {
+                width: 30%;
+        }
+
+}

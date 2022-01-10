@@ -1,0 +1,102 @@
+/*
+Login.css
+Author: Derek Jeong
+Description: Login.css is a css styling file for implementing styles, fonts, and design.
+*/
+
+@media screen and (min-width: 100px) {
+
+        .Login {
+                padding: 0 0;
+                padding-top: 30%;
+                padding-bottom: 14%;
+                margin: 0 auto;
+        }
+
+        .LoginForm {
+                width: 80%;
+                margin: 0 auto;
+                background-color: white;
+                border-radius: 10px;
+                border: black 1px solid;
+        }
+
+        .login-btn {
+                width: 40%;
+                margin: 0 auto;
+                background-color: #f2ca64;
+                border-color: none;
+        }
+
+        .AC-btn {
+                width: 60%;
+                margin: 0 auto;
+                text-align: center;
+                justify-content: center;                
+                background-color: #f2ca64;
+                border-color: none;                      
+        }
+
+        .form-contents {
+                width: 80%;
+                margin: 0 auto;
+                margin-top: 10px;
+        }
+}
+
+@media screen and (min-width: 760px) {
+
+        .Login {
+                padding: 0 0;
+                padding-top: 12%;
+                padding-bottom: 14%;
+                margin: 0 auto;
+        }
+
+        .LoginForm {
+                width: 60%;
+                margin: 0 auto;
+        }
+
+        .login-btn {
+                width: 30%;
+                margin: 0 auto;
+                margin-top: 10px;
+                background-color: #f2ca64;
+                border-color: none;
+        }
+
+        .form-contents {
+                width: 80%;
+                margin: 0 auto;
+        }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+        .Login {
+                padding: 0 0;
+                padding-top: 12%;
+                padding-bottom: 10%;
+                margin: 0 auto;
+        }
+
+        .LoginForm {
+                width: 40%;
+                margin: 0 auto;
+        }
+
+        .login-btn {
+                width: 30%;
+                margin: 0 auto;
+                margin-top: 10px;
+                background-color: #f2ca64;
+                text-align: center;
+        }
+
+        .form-contents {
+                width: 80%;
+                margin: 0 auto;
+        }
+}
